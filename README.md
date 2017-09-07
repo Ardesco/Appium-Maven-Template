@@ -15,7 +15,7 @@ This should download everything for you, but the following may be useful anyway:
 
 Assuming you have downloaded the Android SDK, type ```adb devices``` in your console
 
-##IOS
+## IOS
 
 On iOS you can get your phones UDID by using ios-deploy.  If you want to download ios-deploy globally you will need to have node and NPM installed, then run:
 
