@@ -70,7 +70,7 @@ public class AppiumFactory {
 
             driver = new RemoteWebDriver(seleniumGridURL, desiredCapabilities);
         } else {
-            driver = new AndroidDriver(new URL(appiumServerLocation), desiredCapabilities);
+            driver = selectedDriverType.getWebDriverObject(new URL(appiumServerLocation), desiredCapabilities);;
         }
     }
 }
